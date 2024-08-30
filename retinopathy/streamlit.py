@@ -132,7 +132,7 @@ if uploaded_file is not None:
     # st.image(image, caption='Uploaded Image', use_column_width=True)
     # st.write("")
     
-    model_path = st.text_input("Enter the path to the model (.h5 file):", value="/media/ava/DATA2/rayari/other/kag/RES_weights.h5")
+    model_path = st.text_input("Enter the path to the model (.h5 file):", value="/media/ava/DATA2/rayari/other/kag/VGG_weights.h5")
     
     if st.button('Classify and Show Heatmap'):
         with st.spinner('Classifying...'):
